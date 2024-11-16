@@ -28,8 +28,7 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-#ALLOWED_HOSTS = ['funci-n-de-inicio-de-sesi-n-django.vercel.app', 'localhost', '127.0.0.1']
-ALLOWED_HOSTS = ['funci-n-de-inicio-de-sesi-n-django-34rjr4gqw-demontofs-projects.vercel.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*.vercel.app', 'localhost', '127.0.0.1']
 #ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 # Application definition
