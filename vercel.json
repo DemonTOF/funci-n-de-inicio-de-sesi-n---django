@@ -11,7 +11,7 @@
     ],
     "routes": [
       {
-        "src": "/blog(.*)",
+        "src": "/(.*)",
         "dest": "loginApp/wsgi.py"
       }
     ]
